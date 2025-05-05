@@ -1,0 +1,107 @@
+/* Fondo degradado con imagen */
+body {
+    background: linear-gradient(to bottom, #020426, #155FBF, #1570BF, #1F92BF, #6BF2E5), 
+                url(image.jpg.jpg); /* Cambia 'fondo.jpg' si tu imagen tiene otro nombre */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Estilo para las secciones */
+section {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+/* Títulos de secciones */
+h2 {
+    border-bottom: 2px solid #6BF2E5;
+    padding-bottom: 5px;
+}
+
+/* Ecuaciones */
+.equation {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+/* Imagen de resultado */
+.resultado-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border: 2px solid #6BF2E5;
+    border-radius: 10px;
+}
+/* Botón de descarga */
+.descarga {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.descarga a {
+    background-color: #1F92BF;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.descarga a:hover {
+    background-color: #155FBF;
+}
