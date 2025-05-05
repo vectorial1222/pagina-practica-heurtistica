@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Demostraciones - Principio del Palomar</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#ejercicio1">Ejercicio 1</a></li>
+            <li><a href="#ejercicio2">Ejercicio 2</a></li>
+        </ul>
+    </nav>
+    <div class="descarga">
+        <a href="soluciones.pdf" download>📄 Descargar soluciones en PDF</a>
+    </div>
+    <!-- Contenido principal -->
+    <div class="container">
+        <h1>Demostraciones utilizando el principio del palomar</h1>
+
+        <!-- Ejercicio 1 -->
+        <section id="ejercicio1" class="column">
+            <h2>Ejercicio 1: Distribución de 100 objetos en 7 cajas</h2>
+            <p>Demostramos que si se distribuyen 100 objetos en 7 cajas, entonces al menos una de las cajas tendrá como mínimo 15 objetos. Para ello, aplicamos el principio del palomar.</p>
+            <p>Supongamos que ninguna caja tiene 15 o más objetos. En ese caso, cada caja tendría como máximo 14 objetos. Si distribuimos los objetos de esta manera:</p>
+            <div class="equation">7 × 14 = 98</div>
+            <p>Pero 100 > 98, así que alguna caja debe tener 15 o más.</p>
+
+            <img src="codigo casillas.jpg" alt="Resultado del ejercicio 1" class="resultado-img" />
+        </section>
+
+        <!-- Ejercicio 2 -->
+        <section id="ejercicio2" class="column">
+            <h2>Ejercicio 2: Suma de dígitos de 28 números</h2>
+            <p>Si se tienen 28 números enteros positivos menores o iguales que 1000, entonces al menos dos de ellos tienen la misma suma de dígitos.</p>
+            <p>La suma de los dígitos de cualquier número menor o igual a 1000 puede estar entre 1 y 27.</p>
+            <p>Hay 28 números pero solo 27 posibles sumas. Por el principio del palomar, al menos dos tienen la misma suma de dígitos.</p>
+
+            <img src="codigo enteros.jpg" alt="Resultado del ejercicio 2" class="resultado-img" />
+        </section>
+    </div>
+
+</body>
+</html>
